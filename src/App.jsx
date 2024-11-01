@@ -11,7 +11,10 @@ function App() {
         <img src={logo} className="logo" alt="Rocket logo" />
       </div>
           <h1>WORLD CLOCK</h1> 
-          <Clock city="Singapore" timeZone="Singapore"/>
+          <div className="clockTable">
+           <Clock city="Singapore" timeZone="Singapore"/>
+          </div>
+
           <Clock city="Japan" timeZone="Japan"/> 
           <Clock city="Los Angeles" timeZone="America/Los_Angeles"/>
     </div>
